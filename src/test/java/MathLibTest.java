@@ -30,4 +30,9 @@ public class MathLibTest {
     public void test_division() {
         Assert.assertEquals( 50, underTest.divideNumbers( 100, 2 ) );
     }
+
+    @Test()
+    public void test_division2() {
+        Assert.assertEquals( 12, underTest.divideNumbers( 24, 2 ) );
+    }
 }
