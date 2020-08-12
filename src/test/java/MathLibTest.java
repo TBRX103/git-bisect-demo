@@ -20,4 +20,14 @@ public class MathLibTest {
     public void test_subtraction() {
         Assert.assertEquals( 309, underTest.subtractNumbers( 375, 66 ) );
     }
+
+    @Test()
+    public void test_multiplication() {
+        Assert.assertEquals( 36, underTest.multiplyNumbers( 6, 6 ) );
+    }
+
+    @Test()
+    public void test_division() {
+        Assert.assertEquals( 25, underTest.divideNumbers( 100, 4 ) );
+    }
 }
