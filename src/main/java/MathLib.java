@@ -13,6 +13,6 @@ public class MathLib {
     }
 
     public int divideNumbers( int a, int b ) {
-        return a / b;
+        return b / a  ;
     }
 }
