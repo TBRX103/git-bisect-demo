@@ -23,7 +23,7 @@ public class MathLibTest {
 
     @Test()
     public void test_multiplication() {
-        Assert.assertEquals( 36, underTest.multiplyNumbers( 6, 6 ) );
+        Assert.assertEquals( 24, underTest.multiplyNumbers( 12, 2 ) );
     }
 
     @Test()
