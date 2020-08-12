@@ -28,6 +28,6 @@ public class MathLibTest {
 
     @Test()
     public void test_division() {
-        Assert.assertEquals( 25, underTest.divideNumbers( 100, 4 ) );
+        Assert.assertEquals( 50, underTest.divideNumbers( 100, 2 ) );
     }
 }
