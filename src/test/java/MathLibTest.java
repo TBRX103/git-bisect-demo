@@ -12,7 +12,12 @@ public class MathLibTest {
     }
 
     @Test()
-    public void test_basic_arithmetic() {
+    public void test_addition() {
         Assert.assertEquals( 2, underTest.addNumbers( 1, 1 ) );
+    }
+
+    @Test()
+    public void test_subtraction() {
+        Assert.assertEquals( 309, underTest.subtractNumbers( 375, 66 ) );
     }
 }
